@@ -6,7 +6,7 @@ const Footer = ({ siteInfo }) => {
   const currentYear = d.getFullYear()
   const copyrightDate = (function () {
     if (Number.isInteger(BLOG.SINCE) && BLOG.SINCE < currentYear) {
-      return BLOG.SINCE + '-' + currentYear
+      return 2023 + '-' + currentYear
     }
     return currentYear
   })()
