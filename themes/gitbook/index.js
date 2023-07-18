@@ -9,7 +9,7 @@ import Footer from './components/Footer'
 import InfoCard from './components/InfoCard'
 import RevolverMaps from './components/RevolverMaps'
 import TopNavBar from './components/TopNavBar'
-//import SearchInput from './components/SearchInput'
+import SearchInput from './components/SearchInput'
 import { useGlobal } from '@/lib/global'
 import Live2D from '@/components/Live2D'
 import BLOG from '@/blog.config'
@@ -71,7 +71,7 @@ const LayoutBase = (props) => {
                     <div className={'font-sans hidden md:block border-r dark:border-transparent relative z-10 '}>
                         <div className='w-72 py-14 px-6 sticky top-0 overflow-y-scroll h-screen scroll-hidden'>
                             {slotLeft}
-                            //<SearchInput className='my-3 rounded-md' />
+                            /*<SearchInput className='my-3 rounded-md' />*/
                             {/* 所有文章列表 */}
                             <NavPostList filteredPostGroups={filteredPostGroups} />
 
